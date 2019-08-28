@@ -12,7 +12,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>MavenEnterpriseApp-web</artifactId>
 	<packaging>war</packaging>
-	<version>1.0</version>
+	<version>1.1</version>
 
 	<name>MavenEnterpriseApplication</name>
 	<url>http://mithuntechnologies.com</url>
@@ -96,12 +96,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:8085/mithuntechnologies/repository/flipkart-releases/</url>
+	      <url>http://13.233.118.9:8081/repository/sam-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8085/mithuntechnologies/repository/flipkart-snapshot/</url>
+	      <url>http://13.233.118.9:8081/repository/sam-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
